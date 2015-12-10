@@ -1,2 +1,3 @@
 # Spare Time Projects
-1. Pomodoro Clock
+- Pomodoro Clock
+- Calculator
