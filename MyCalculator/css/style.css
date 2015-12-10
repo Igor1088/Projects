@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    background-color: #669999;
+    padding-top: 50px;
+}
+
+#calculator {
+	background-color: #999;
+	width: 310px;
+	height: 460px;
+	border: 6px #155151 solid;
+	margin: 10px auto;
+	padding: 5px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #29a3a3;
+}
+
+#calculator span {
+	display: block;
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #2eb8b8;
+}
+
+#numbers, #operators {
+	margin: auto;	
+}
+
+#operators span {
+	width: 46px;
+	height: 45px;
+	font-size: 39px;
+	padding: 2px;
+	margin: 5px 13px;
+}
+
+#operators span:hover, #side span:hover{
+	background: #007acc;
+	color: #fff;
+}
+
+#numbers span{
+	width: 50px;
+	height: 50px;
+	font-size: 32px;
+	padding: 10px;
+	margin: 5px;
+	background-color: #33cccc;
+}
+
+#numbers span:hover{
+	background: #0099ff;
+	color: #fff;
+}
+
+#total {
+    height: 70px;
+    width: 300px;
+    margin:auto;
+    background-color: #196666;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 60px;
+    padding: 0px 5px;
+    overflow: hidden;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+    color: #fff;
+}
+
+#side {
+	width: 49px;
+	float: right;
+
+
+}
+
+#side span {
+	width: 40px;
+	height: 40px;
+	float: right;
+	font-size: 32px;
+	padding: 10px;
+	margin: 5px;
+}
+
+span#equals {
+	height: 100px;
+	padding-top: 50px;
+	margin-top: 15px;
+}
+span#zero{
+	width: 210px;
+}
+span#equals:hover{
+ 	background: #339933;
+ 	color: #fff;
+}
+
+span#clear:hover{
+	background: #ff6666;
+ 	color: #fff;
+}
+
