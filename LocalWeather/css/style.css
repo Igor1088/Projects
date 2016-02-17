@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+  font-size:38px;
+  font-family: 'Lora', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-shadow: 0 2px 3px rgba(0,0,0,.9);
+  color: #fff;
+  text-align:center;
+}
+h4{
+  font-size: 40px;
+  background-color: rgba(89,89,89,.3);
+  height: 60px;
+}
+.container{
+  width: 450px;;
+  margin: auto;
+  padding:10px;
+  text-align: center;
+  margin-top: 100px;
+  background-color: rgba(0,0,0,.3);
+ 
+}
+
+#weather{
+  margin: 30px;
+}
+#icon, #temp, #description{
+  display: inline-block;
+}
+
+#temp{
+  font-size: 50px;
+}
+
+#btn{
+  background: transparent;
+  border:2px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  width:100px;
+  height: 50px;
+  font-size: 30px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.9);
+  -webkit-box-shadow: 4px 3px 16px 0px rgba(163,161,163,1);
+-moz-box-shadow: 4px 3px 16px 0px rgba(163,161,163,1);
+box-shadow: 4px 3px 16px 0px rgba(163,161,163,1);
+ margin: 10px;
+}
+
+#btn:hover{
+  border:2px solid #737373;
+  color: #737373;
+  cursor: pointer;
+}
+.desc{
+  background-color: rgba(89,89,89,.3);
+  margin:5px;
+}
+
+#wind, #description, #min, #max{
+  display:inline-block;
+  margin-right: 15px;
+  font-size:25px;
+}
+
+
+
