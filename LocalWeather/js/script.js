@@ -22,7 +22,7 @@ var units = 'metric';
   }
 
   function getWeather(loc, units) {
-    $.getJSON('http://api.openweathermap.org/data/2.5/weather?lat=' + loc.lat + '&lon=' + loc.lon + '&units='+units+'&appid=1a42227474367ab5f28cac1dbe0b755d', function(weather) {
+    $.getJSON('http://api.openweathermap.org/data/2.5/weather?lat=' + loc.lat + '&lon=' + loc.lon + '&units='+units+'&appid=', function(weather) {
       
       temperature = parseFloat((weather.main.temp).toFixed(1));
       var tempIcon = weather.weather[0].icon;
